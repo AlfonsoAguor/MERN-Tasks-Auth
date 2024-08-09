@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #202020;
+  color: white;
+}
+
+
+.border-decoration-articles{
+  border-bottom: 2px solid  rgb(32, 129, 23);
+  
+}
+
+.msgSuccess{
+  display: block;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
